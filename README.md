@@ -40,12 +40,10 @@ Click on the YouTube icon to search for the selected song on YouTube.
 
 ## Screenshots
 
-![Screenshot 1]
 <img width="933" alt="screenshot1" src="https://github.com/nsalunke729/Song-Library/assets/48030982/e69c9480-241e-4b26-a57e-59b9f7284345">
 **Screenshot 1: Main screen with filters and autocomplete search**
 
 
-![Screenshot 2]
 <img width="566" alt="screenshot2" src="https://github.com/nsalunke729/Song-Library/assets/48030982/4701e8f5-0a9e-456d-8b3a-28b6e951be96"/>
 
 **Screenshot 2: Song details and YouTube search link**
