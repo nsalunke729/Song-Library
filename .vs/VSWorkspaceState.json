@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\songautocomplete",
+    "\\songautocomplete\\public",
+    "\\songautocomplete\\src"
   ],
+  "SelectedNode": "\\songautocomplete\\public\\data.json",
   "PreviewInSolutionExplorer": false
 }
