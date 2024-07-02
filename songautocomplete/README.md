@@ -19,7 +19,7 @@ JSON: Data format used for storing artist, album, and song information.
 To run this project locally, follow these steps:
 
 1.Clone the repository to your local machine:
-	git clone https://github.com/nsalunke729/song-autocomplete.git
+	git clone https://github.com/nsalunke729/Song-Library.git
 
 2. Navigate into the project directory:
 	cd song-autocomplete
