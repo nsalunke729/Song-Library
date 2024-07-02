@@ -47,7 +47,7 @@ Click on the YouTube icon to search for the selected song on YouTube.
 
 ![Screenshot 2]
 
-<img width="566" alt="screenshot2" src="https://github.com/nsalunke729/Song-Library/assets/48030982/4701e8f5-0a9e-456d-8b3a-28b6e951be96">
+<img width="566" alt="screenshot2" src="https://github.com/nsalunke729/Song-Library/assets/48030982/4701e8f5-0a9e-456d-8b3a-28b6e951be96"/>
 *Screenshot 2: Song details and YouTube search link*
 
 ## Demo
