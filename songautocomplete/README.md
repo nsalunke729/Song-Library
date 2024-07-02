@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+**Song Autocomplete**
+Song Autocomplete is a web application that allows users to search for songs from a provided dataset using autocomplete functionality. Users can filter songs by artist and album, view song details including album descriptions, and search for songs on YouTube.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Autocomplete search for songs by title and artist.
+Filtering songs by artist and album.
+Displaying detailed information about selected songs, including title, artist, album, length, and description.
+Direct link to search for selected songs on YouTube.
 
-## Available Scripts
+## Technologies Used
+React: Frontend library for building user interfaces.
+Material-UI: React component library for styling and layout.
+Axios: HTTP client for making requests to fetch data.
+JavaScript (ES6+): Programming language used for frontend logic.
+JSON: Data format used for storing artist, album, and song information.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To run this project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.Clone the repository to your local machine:
+	git clone https://github.com/nsalunke729/song-autocomplete.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate into the project directory:
+	cd song-autocomplete
 
-### `npm test`
+3. Install dependencies using npm:
+	npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
+	npm start
 
-### `npm run build`
+5. Open your browser and visit http://localhost:3000 to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+Select an artist and/or album from the dropdown filters to narrow down the list of songs.
+Type in the search box to autocomplete songs by title and artist.
+Click on a song from the autocomplete list to view detailed information.
+Click on the YouTube icon to search for the selected song on YouTube.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 1](screenshots/screenshot1.PNG)
+*Screenshot 1: Main screen with filters and autocomplete search*
 
-### `npm run eject`
+![Screenshot 2](screenshots/screenshot2.PNG)
+*Screenshot 2: Song details and YouTube search link*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Demo
+Watch a quick demo of the Song Autocomplete application here.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your improvements.
