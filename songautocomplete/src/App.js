@@ -1,13 +1,14 @@
 import React from 'react';
 import { AppBar, Box, Container, Toolbar, Typography } from '@mui/material';
 import SongAutocomplete from './components/Songcomplete';
+import './App.css'; // Import custom styles
 
 function App() {
     return (
         <div className="App">
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
                         Song Library
                     </Typography>
                 </Toolbar>
@@ -44,8 +45,13 @@ function App() {
                 }}
             >
                 <Typography variant="body2" color="textSecondary">
-                    Copy Rights: 2024 Song Search App. All rights reserved.
+                    Copyright © 2024 Song Search App. All rights reserved.
                 </Typography>
+                <div>
+                    <span className="glyphicon glyphicon-user" style={{ color: 'black' }} ></span>
+                    <a href="https://niranjan-salunke.netlify.app/" style={{ color: 'blue', marginLeft: '5px', marginRight: '5px' }}>Profile</a>
+                    <a href="https://www.linkedin.com/in/niranjan-salunke/" style={{ color: 'blue', marginLeft: '5px', marginRight: '5px' }}>LinkedIn</a>
+                </div>
             </Box>
         </div>
     );
