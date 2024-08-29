@@ -57,26 +57,20 @@ function Songcomplete() {
     }, []);
 
     // Function to handle filtering based on selected artist and album
-    const handleFilter = () => {
+    useEffect(() => {
         let newFilteredSongs = songs;
 
-        // Filter songs by selected artist if one is selected
         if (selectedArtist) {
             newFilteredSongs = newFilteredSongs.filter(song => song.artist === selectedArtist);
         }
 
-        // Filter songs further by selected album if one is selected
         if (selectedAlbum) {
             newFilteredSongs = newFilteredSongs.filter(song => song.album === selectedAlbum);
         }
 
-        setFilteredSongs(newFilteredSongs); // Update filtered songs state
-    };
+        setFilteredSongs(newFilteredSongs);
+    }, [selectedArtist, selectedAlbum, songs]);
 
-    // Effect to trigger filtering whenever selectedArtist or selectedAlbum changes
-    useEffect(() => {
-        handleFilter();
-    }, [selectedArtist, selectedAlbum]);
 
     return (
         <Box sx={{ width: '80%', margin: '0 auto', paddingTop: 4 }}>

@@ -3,8 +3,10 @@
     "",
     "\\songautocomplete",
     "\\songautocomplete\\public",
-    "\\songautocomplete\\src"
+    "\\songautocomplete\\screenshots",
+    "\\songautocomplete\\src",
+    "\\songautocomplete\\src\\components"
   ],
-  "SelectedNode": "\\songautocomplete\\public\\data.json",
+  "SelectedNode": "\\songautocomplete\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
